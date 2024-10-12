@@ -1,10 +1,11 @@
-document.getElementById("calcular").addEvenListener("click", function() {
-    const numero1 = parseFloat(document.getElementById("numero1").value);
-    const numero2 = parseFloat(document.getElementById("numero2").value);
+const form = document.getElementById('sum-form')
 
-    if(!isNaN(numero1) && !isNaN(numero2)) {
-        const soma = numero1 + numero2;
-        alert("Soma = "+ soma); }
-  
-        else { alert("Insira números válidos.");}
-});
+form.addEventListener('submit', function(event){
+    event.preventDefault();
+
+    const number1 = parseFloat(document.getElementById('number1').value)
+    const number2 = parseFloat(document.getElementById('number2').value)
+    alert(number1 + number2);
+})
+
+console.log(form)

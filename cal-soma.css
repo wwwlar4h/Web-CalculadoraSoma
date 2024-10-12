@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #e1b6fa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,5 +38,5 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #166ae9;
 }
